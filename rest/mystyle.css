@@ -1,0 +1,16 @@
+div{
+ text-transform: capitalize;
+}
+div {
+background-color: red;
+width: 500px;
+height: 20px;
+opacity: 0.4;
+}
+div{
+border: 5px;
+border-radius: 3px;
+
+
+
+}

@@ -1,0 +1,139 @@
+@keyframes backgroundColorAnimation {
+    from {
+        background-color: red;
+    }
+    25%{
+        background-color: yellow;
+    }
+    50%{
+        background-color: green;
+    }
+    75%{
+        background-color: blue;
+    }
+    to {
+        background-color: violet;
+    }
+
+        }
+        div{
+            width: 100px;
+            height: 100px;
+            margin: 40px 30px;
+            border: 1px solid white;
+            border-radius: 30px 60px;
+             
+            background-color: #ccc;
+            animation-name: backgroundColorAnimation;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+         
+             animation-duration: 5s;
+          animation-iteration-count: infinite;
+           transition-property: background-color, height;
+           transition-duration: 5s;
+        }
+        .icon1{
+            width: 100px;
+            height: 100px;
+            margin: 40px 30px;
+            border: 3px solid blue;
+            border-radius:  90px 50px;
+             
+            background-color: #ccc;
+            animation-name: backgroundColorAnimation;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+         
+             animation-duration: 5s;
+          animation-iteration-count: infinite;
+           transition-property: background-color, height;
+           transition-duration: 5s;
+        }
+        .icon2{
+            width: 120px;
+            height: 100px;
+            margin: 40px 30px;
+            border: 3px solid red;
+            border-radius: 150px 30px;
+             float: right;
+            background-color: #ccc;
+            animation-name: backgroundColorAnimation;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+         
+             animation-duration: 5s;
+          animation-iteration-count: infinite;
+           transition-property: background-color, height;
+           transition-duration: 5s;
+        }
+        .icon3{
+            width: 120px;
+            height: 100px;
+            margin: 40px 30px;
+            border: 3px solid green;
+            border-radius: 30px 150px;
+             float: left;
+            background-color: #ccc;
+            animation-name: backgroundColorAnimation;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+         
+             animation-duration: 5s;
+          animation-iteration-count: infinite;
+           transition-property: background-color, height;
+           transition-duration: 5s;
+        }
+        .icon4{
+            width: 200px;
+            height: 170px;
+            margin: 40px 30px;
+            border: 3px solid green;
+            border-radius: 30px 150px;
+             
+            background-color: #ccc;
+            animation-name: backgroundColorAnimation;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+         
+             animation-duration: 5s;
+          animation-iteration-count: infinite;
+           transition-property: background-color, height;
+           transition-duration: 5s;
+        }
+        .icon5{
+            width: 200px;
+            height: 100px;
+            margin: 40px 30px;
+            border: 3px solid yellow;
+            border-radius: 30px ;
+            float: left;
+            background-color: #ccc;
+            animation-name: backgroundColorAnimation;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            rotate: 90deg;
+             animation-duration: 5s;
+          animation-iteration-count: infinite;
+           transition-property: background-color, height;
+           transition-duration: 5s;
+        }
+
+        .icon6{
+            width: 200px;
+            height: 100px;
+            margin: 40px 30px;
+            border: 3px solid orange;
+            border-radius: 30px ;
+             rotate: 90deg;
+            background-color: #ccc;
+            animation-name: backgroundColorAnimation;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            float: right;
+             animation-duration: 5s;
+          animation-iteration-count: infinite;
+           transition-property: background-color, height;
+           transition-duration: 5s;
+        }
+        

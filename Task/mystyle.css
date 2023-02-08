@@ -1,0 +1,33 @@
+h1 {
+    width: 1500px;
+    border-radius: 7px;
+    font-size: 50px;
+    color: black;
+    font-family: impact;
+    text-align: center;
+    background-image: -webkit-radial-gradient(rgb(243, 11, 11), rgb(233, 236, 19));
+}
+
+
+
+.image {
+width: 150px;
+height: 150px;
+border-radius: 100%;
+
+}
+
+p {
+    margin: 10px;
+    padding-top: 60px;
+    font-size: 15px;
+    color: white;
+    font-family: impact;
+    text-align: center;
+    line-height: 100px;
+    vertical-align: middle;
+    background-image: url(istockphoto-1309712609-612x612.jpg);
+    background-repeat: no-repeat;
+background-size:cover ;
+background-attachment: fixed;
+}
