@@ -1,0 +1,27 @@
+div{
+    width: 230px;
+    height: 150px;
+    margin: 15px;
+    display: inline-block;
+    padding: 15px;
+    background-image: url(1200px-2010-kodiak-bear-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    border: 10px ; 
+    border-radius: 20px;
+    border: 10px solid red;
+
+
+       }
+       .photo1{background-origin: border-box;}
+       .photo2{background-origin: padding-box;}
+       .photo3{background-origin: content-box;}
+       .photo4{background-origin: border-box;}
+       .photo5{background-origin: padding-box;}
+       .photo6{background-origin: content-box;}
+       .photo7{background-origin: border-box;}
+       .photo8{background-origin: padding-box;}
+       .photo9{background-origin: content-box;}
+       .photo10{background-origin: border-box;}
+       .photo11{background-origin: padding-box;}
