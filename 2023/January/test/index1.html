@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>სამკუთხედის პერიმეტრი და ფართობი</title>
+</head>
+<body>
+    <!--პერიმეტრის გამოთვლა გავაკეთე,მაგრამ ფართობზე რაღაც არ მუშაობს. ქვემოთ ფართობის ფორმულა ვცადე-->
+    <script>
+        function select(num1, num2, num3, selection) {
+  return eval(`${Number(num1)} ${selection} ${Number(num2)} ${selection} ${Number(num3)}`);
+   }
+   
+const selection = prompt(` 
+Enter operator:
+multiply => *
+exponent => **
+divide => /
+modulus => %
+add => +
+substract => -
+`);
+
+const num1 = prompt(`შეიყვანეთ პირველი გვერდის სიგრძე`);
+const num2 = prompt(`შეიყვანეთ მეორე გვერდის სიგრძე`);
+const num3 = prompt(`შეიყვანეთ მესამე გვერდის სიგრძე`);
+/*const perimeter = (num1 + num2 + num3)/2;
+const area = Math.sqrt(perimeter*((perimeter-num1)*(perimeter-num2)*(perimeter-num3)));*/
+
+const result = select(num1, num2, num3, selection);
+/*const result1 = select1(num1, num2, num3, selection);*/
+alert(`სამკუთხედის პერიმეტრი = ${result}`);
+/*alert(`სამკუთხედის ფართობი = ${result1}`);*/
+    </script>
+</body>
+</html>
