@@ -1,0 +1,22 @@
+.navbar {
+    margin: 10px;
+    width: 1500px;
+    background-image: -webkit-linear-gradient(left,rgb(235, 235, 247),rgb(134, 187, 236),rgb(0, 255, 128));
+}
+body {background-color: rgb(191, 223, 202);
+
+}
+.card {
+    margin: 20px;
+    background-color: azure;
+}
+h1 {
+    margin: 20px;
+}
+.footer {
+    position:fixed;
+    bottom:0;
+    left:0;
+    width:100%;
+    height: 40px;    
+}

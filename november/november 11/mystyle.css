@@ -1,0 +1,41 @@
+
+        @keyframes circle{
+            from{
+                /* საწყისი css სტილი */
+                background-color: aqua;
+            }
+            25%{
+                background-color: red;
+            }
+    
+            50%{
+            background-color: blue;
+            }
+            75%{
+                background-color: yellow;
+            }
+            to{
+                 /* საბოლოო css სტილი */
+                background-color: brown;
+            }
+            }
+            div{
+          width: 100px;
+          height: 100px;
+          margin: 40px 30px;
+          border: 3px double green;
+          border-radius: 50%;
+          background-color: aqua;
+          animation-name: circle;
+          animation-duration: 5s;
+          animation-iteration-count: infinite;
+          transition-property: background-color, height;
+          transition-duration: 5s;
+            }
+            div:hover{
+                background-color: brown;
+                height: 150px;
+                width: 150px;
+                border-color: pink;
+                border-radius: 100%;
+            }

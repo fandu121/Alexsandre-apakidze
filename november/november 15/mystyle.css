@@ -1,0 +1,30 @@
+
+.footer {
+    position:fixed;
+    bottom:0;
+    right:0;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    animation: footermove 1.3s linear alternate infinite;
+}
+
+div{
+    animation-name: circle;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    transition-property: background-color, height;
+    transition-duration: 5s;
+}
+div:hover{
+    background-color: brown;
+    height: 100px;
+    width: 100px;
+    border-color: pink;
+    rotate: 90deg;
+    }
+
+
+@keyframes footermove {
+    from {transform: translateY(-10px);}
+    to {transform: translateY(10px);}
+}
