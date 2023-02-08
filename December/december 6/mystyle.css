@@ -1,0 +1,14 @@
+body{
+    background-color: green;
+}
+*{
+    box-sizing: border-box;
+}
+
+
+@media only screen (max-width:620px){
+/*for mobile phones*/
+.all, .card, .image, .image2, .text1, .text2, .btn, .container{
+width: 100%;
+}
+}

@@ -1,0 +1,113 @@
+body{
+    background-color: pink;
+    display: grid;
+}
+*{
+    box-sizing: border-box;
+}
+.grid-container{
+  border: 4px solid blue;  
+  display: grid;
+}
+
+.card{
+    box-shadow: 0 4px 8px rgb(0,0,0,0.2);
+        transition: 0.1s;
+        width: 30%;
+        margin: auto;
+        padding: 20px;
+        border-radius: 14px;
+        background-color: white;
+        
+    
+    }
+    .color1 {
+        box-shadow: none;
+        width: 40px;
+        height: 30px;
+        background-color: red;
+        color: #fff;
+        border-radius: 50%;
+        box-shadow: 3px 3px 3px #b1b1b1,
+            -3px -3px 3px #fff;
+        letter-spacing: 1.3px;
+        margin-left: 170px;
+      }
+      .color1:hover{
+        
+        opacity: .25;
+      transform: scale(.8);
+      }
+      .color2 {
+        box-shadow: none;
+        width: 40px;
+        height: 30px;
+        background-color: blue;
+        color: #fff;
+        border-radius: 50%;
+        box-shadow: 3px 3px 3px #b1b1b1,
+            -3px -3px 3px #fff;
+        letter-spacing: 1.3px;
+        margin-left: 23px;
+      }
+      .color2:hover{
+        
+        opacity: .25;
+      transform: scale(.8);
+      }
+      .color3 {
+        box-shadow: none;
+        width: 40px;
+        height: 30px;
+        background-color: black;
+        color: #fff;
+        border-radius: 50%;
+        box-shadow: 3px 3px 3px #b1b1b1,
+            -3px -3px 3px #fff;
+        letter-spacing: 1.3px;
+        margin-left: 23px;
+      }
+      .color3:hover{
+        
+        opacity: .25;
+      transform: scale(.8);
+      }
+      .add {
+        box-shadow: none;
+        width: 100px;
+        height: 30px;
+        background-color: yellow;
+        color: rgb(14, 3, 3);
+        border-radius: 10%;
+        box-shadow: 3px 3px 3px #b1b1b1,
+            -3px -3px 3px #fff;
+        letter-spacing: 1.3px;
+        margin-left: 150px;
+        margin-top: 15px;
+      }
+      .add:hover{
+        
+        opacity: .25;
+      transform: scale(.8);
+      }
+      .buy {
+        box-shadow: none;
+        width: 100px;
+        height: 30px;
+        background-color: white;
+        color: rgb(14, 3, 3);
+        border-radius: 10%;
+        box-shadow: 3px 3px 3px #b1b1b1,
+            -3px -3px 3px #fff;
+        letter-spacing: 1.3px;
+        margin-left: 23px;
+      }
+      .buy:hover{
+        
+        opacity: .25;
+      transform: scale(.8);
+      }
+      .all{
+        display: flex;
+        justify-content: center;
+      }
